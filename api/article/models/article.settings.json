@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "articles",
   "info": {
-    "name": "Article"
+    "name": "Blogs",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,12 +13,31 @@
   "pluginOptions": {},
   "attributes": {
     "Title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Body": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
-    "Image": {
+    "CoverImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "PublishDate": {
+      "type": "date",
+      "required": true
+    },
+    "Author": {
+      "type": "string"
+    },
+    "AuthorImage": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
