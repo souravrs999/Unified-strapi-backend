@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/embright-blogs",
+      "handler": "embright-blog.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/embright-blogs/count",
+      "handler": "embright-blog.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/embright-blogs/:id",
+      "handler": "embright-blog.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/embright-blogs",
+      "handler": "embright-blog.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/embright-blogs/:id",
+      "handler": "embright-blog.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/embright-blogs/:id",
+      "handler": "embright-blog.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

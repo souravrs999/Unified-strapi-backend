@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/auticare-events",
+      "handler": "auticare-events.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/auticare-events/count",
+      "handler": "auticare-events.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/auticare-events/:id",
+      "handler": "auticare-events.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/auticare-events",
+      "handler": "auticare-events.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/auticare-events/:id",
+      "handler": "auticare-events.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/auticare-events/:id",
+      "handler": "auticare-events.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

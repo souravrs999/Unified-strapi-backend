@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/auticare-blogs",
+      "handler": "auticare-blogs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/auticare-blogs/count",
+      "handler": "auticare-blogs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/auticare-blogs/:id",
+      "handler": "auticare-blogs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/auticare-blogs",
+      "handler": "auticare-blogs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/auticare-blogs/:id",
+      "handler": "auticare-blogs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/auticare-blogs/:id",
+      "handler": "auticare-blogs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

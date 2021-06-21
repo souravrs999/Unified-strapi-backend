@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/eduoskus-blogs",
+      "handler": "eduoskus-blog.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/eduoskus-blogs/count",
+      "handler": "eduoskus-blog.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/eduoskus-blogs/:id",
+      "handler": "eduoskus-blog.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/eduoskus-blogs",
+      "handler": "eduoskus-blog.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/eduoskus-blogs/:id",
+      "handler": "eduoskus-blog.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/eduoskus-blogs/:id",
+      "handler": "eduoskus-blog.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

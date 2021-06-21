@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/eduoskus-events",
+      "handler": "eduoskus-events.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/eduoskus-events/count",
+      "handler": "eduoskus-events.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/eduoskus-events/:id",
+      "handler": "eduoskus-events.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/eduoskus-events",
+      "handler": "eduoskus-events.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/eduoskus-events/:id",
+      "handler": "eduoskus-events.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/eduoskus-events/:id",
+      "handler": "eduoskus-events.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

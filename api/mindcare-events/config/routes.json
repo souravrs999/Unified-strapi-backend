@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mindcare-events",
+      "handler": "mindcare-events.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mindcare-events/count",
+      "handler": "mindcare-events.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mindcare-events/:id",
+      "handler": "mindcare-events.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mindcare-events",
+      "handler": "mindcare-events.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mindcare-events/:id",
+      "handler": "mindcare-events.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mindcare-events/:id",
+      "handler": "mindcare-events.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

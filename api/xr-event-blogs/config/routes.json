@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/xr-event-blogs",
+      "handler": "xr-event-blogs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/xr-event-blogs/count",
+      "handler": "xr-event-blogs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/xr-event-blogs/:id",
+      "handler": "xr-event-blogs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/xr-event-blogs",
+      "handler": "xr-event-blogs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/xr-event-blogs/:id",
+      "handler": "xr-event-blogs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/xr-event-blogs/:id",
+      "handler": "xr-event-blogs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mindcare-blogs",
+      "handler": "mindcare-blogs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mindcare-blogs/count",
+      "handler": "mindcare-blogs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mindcare-blogs/:id",
+      "handler": "mindcare-blogs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mindcare-blogs",
+      "handler": "mindcare-blogs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mindcare-blogs/:id",
+      "handler": "mindcare-blogs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mindcare-blogs/:id",
+      "handler": "mindcare-blogs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

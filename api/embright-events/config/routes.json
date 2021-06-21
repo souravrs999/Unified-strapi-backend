@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/embright-events",
+      "handler": "embright-events.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/embright-events/count",
+      "handler": "embright-events.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/embright-events/:id",
+      "handler": "embright-events.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/embright-events",
+      "handler": "embright-events.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/embright-events/:id",
+      "handler": "embright-events.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/embright-events/:id",
+      "handler": "embright-events.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
