@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/embright-publications",
+      "handler": "embright-publications.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/embright-publications/count",
+      "handler": "embright-publications.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/embright-publications/:id",
+      "handler": "embright-publications.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/embright-publications",
+      "handler": "embright-publications.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/embright-publications/:id",
+      "handler": "embright-publications.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/embright-publications/:id",
+      "handler": "embright-publications.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
